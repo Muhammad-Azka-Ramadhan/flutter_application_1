@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/tugas_mandiri.dart';
+// import 'package:flutter_application_1/tugas_mandiri.dart';
+import 'package:flutter_application_1/layout_listitem.dart';
 void main() {
   runApp(const MainApp());
 }
@@ -11,6 +12,6 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Aplikasi Flutter",
-      home: TugasMandiri());
+      home: LayoutListitem());
   }
 }
