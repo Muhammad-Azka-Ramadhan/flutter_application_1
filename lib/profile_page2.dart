@@ -27,29 +27,27 @@ class ProfilePage2 extends StatelessWidget {
             ),
           ),
           SizedBox(height: 20),
-          Center(
-            child: Text(
-              'Muhammad Azka Ramadhan',
-              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-            ),
+          Text(
+            'Muhammad Azka Ramadhan',
+            style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
           ),
           SizedBox(height: 5),
-          Center(
-            child: Text(
-              'Pelajar SMK YPC Tasikmalaya',
-              textAlign: TextAlign.center,
-              style: TextStyle(fontSize: 16, color: Colors.grey),
-            ),
+          Text(
+            'Pelajar SMK YPC Tasikmalaya',
+            textAlign: TextAlign.center,
+            style: TextStyle(fontSize: 16, color: Colors.grey),
           ),
-          SizedBox(height: 15),
+          SizedBox(height: 25),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              // SizedBox(width: 10),
               ElevatedButton.icon(
-                icon: Icon(Icons.call),
-                label: Text('Call'),
+                icon: Icon(Icons.call, color: Colors.red),
+                label: Text('Call', style: TextStyle(color: Colors.red)),
                 onPressed: () {},
+                style: ButtonStyle(
+                  backgroundColor: WidgetStatePropertyAll(Colors.yellow),
+                ),
               ),
               ElevatedButton.icon(
                 icon: Icon(Icons.route),
