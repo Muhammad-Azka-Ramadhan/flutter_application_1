@@ -6,7 +6,9 @@ import 'package:flutter/material.dart';
 // import 'package:flutter_application_1/layout_listview.dart';
 // import 'package:flutter_application_1/layout_horizontal.dart';
 // import 'package:flutter_application_1/layout_widget.dart';
-import 'package:flutter_application_1/profile_page2.dart';
+// import 'package:flutter_application_1/profile_page2.dart';
+// import 'package:flutter_application_1/profile_latihan.dart';
+import 'package:flutter_application_1/favorite_widget.dart';
 
 void main() {
   runApp(const MainApp());
@@ -18,6 +20,6 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(title: "Aplikasi Flutter",
-    home: ProfilePage2());
+    home: FavoriteWidget());
   }
 }
