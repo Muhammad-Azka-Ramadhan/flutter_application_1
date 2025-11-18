@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/form_validation.dart';
+// import 'package:flutter_application_1/latihan_state.dart';
+// import 'package:flutter_application_1/halaman1.dart';
 // import 'package:flutter_application_1/tugas_mandiri.dart';
 // import 'package:flutter_application_1/layout_listitem.dart';
 // import 'package:flutter_application_1/profile_page.dart';
@@ -8,7 +11,7 @@ import 'package:flutter/material.dart';
 // import 'package:flutter_application_1/layout_widget.dart';
 // import 'package:flutter_application_1/profile_page2.dart';
 // import 'package:flutter_application_1/profile_latihan.dart';
-import 'package:flutter_application_1/favorite_widget.dart';
+// import 'package:flutter_application_1/favorite_widget.dart';
 
 void main() {
   runApp(const MainApp());
@@ -20,6 +23,6 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(title: "Aplikasi Flutter",
-    home: FavoriteWidget());
+    home: FormValidation());
   }
 }
